@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3b5487e-d47f-4f7c-ac62-513fbce312af" name="Default Changelist" comment="" />
+    <list default="true" id="c3b5487e-d47f-4f7c-ac62-513fbce312af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/Example.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,39 +24,51 @@
         <counts>
           <entry key="java" value="6" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1687" />
+          <entry key="java" value="1803" />
           <entry key="txt" value="15" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1687" />
+          <entry key="JAVA" value="1803" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="60" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/example/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="187">
+              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -61,10 +76,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ivanovcorp/consistencychecker/ConsistencyChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#checkFileConsistency#0;class#ConsistencyChecker#0" />
+                <element signature="method#checkFilesHash#0;class#ConsistencyChecker#0" />
+                <element signature="method#compareHashes#0;class#ConsistencyChecker#0" />
                 <element signature="method#generateHash#0;class#ConsistencyChecker#0" />
               </folding>
             </state>
@@ -95,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/fail-target-file.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/ivanovcorp/consistencychecker/ConsistencyChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/example/Example.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
       </list>
     </option>
   </component>
@@ -149,7 +168,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consistencychecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="file-consistency-checker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fileconsistencychecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="file-consistency-checker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fileconsistencychecker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="file-consistency-checker" type="b2602c69:ProjectViewProjectNode" />
@@ -164,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535655194233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535733105816" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -231,7 +265,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -239,7 +273,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,10 +343,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ivanovcorp/consistencychecker/ConsistencyChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkFileConsistency#0;class#ConsistencyChecker#0" />
+            <element signature="method#checkFilesHash#0;class#ConsistencyChecker#0" />
+            <element signature="method#compareHashes#0;class#ConsistencyChecker#0" />
             <element signature="method#generateHash#0;class#ConsistencyChecker#0" />
           </folding>
         </state>
@@ -320,8 +357,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/example/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="187">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
